@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans", sans-serif;
+  position: relative;
+}
+
+.pattern-top {
+  position: absolute;
+  float: left;
+  top: -400px;
+  left: -300px;
+}
+
+.pattern-bottom {
+  position: absolute;
+  float: right;
+  width: 700px;
+  left: 800px;
+  top: 50px;
+}
+
+main {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+article {
+  width: 350px;
+  height: 350px;
+  background-color: white;
+  border-radius: 8px;
+  position: relative;
+}
+
+.pattern-card {
+  width: 100%;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.img-victor {
+  position: absolute;
+  float: right;
+  bottom: 45%;
+  left: 35%;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.user {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.user-name {
+  color: hsl(229, 23%, 23%);
+}
+
+.age {
+  color: hsl(0, 0%, 59%);
+}
+
+.city {
+  text-align: center;
+  color: hsl(0, 0%, 59%);
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+hr {
+  margin-bottom: 15px;
+  border-top: 15px hsl(0, 0%, 59%);
+}
+
+.number {
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+}
+
+.stat {
+  font-size: 10px;
+  color: hsl(0, 0%, 59%);
+}
